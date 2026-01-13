@@ -20,6 +20,6 @@ jobs:
           port: 22
           script: |
             set -e
-            cd /var/www/kalkulator
+            cd /var/www/web5
             git fetch origin main
             git reset --hard origin/main
